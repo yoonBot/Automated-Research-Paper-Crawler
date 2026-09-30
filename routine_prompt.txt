@@ -1,0 +1,58 @@
+Please do the following every day: add the 5 latest arxiv papers and summarize them organize them in Notion. If the latest arxiv papers have already been filled, and there are no up-to-date papers, then search and add any papers after 2025. If the rows in Notion are completely filled, automatically create 5 new rows and add the latest papers. 
+
+Step 1: arxiv search
+Please search for papers under the following conditions.
+- Publication year: after 2025
+- Journals: Computer Science, Computation and Language
+- Field/Topic: Large Language Models, Voice Recognition related to Large Language Models and Deep Learning
+- Type of study: in silico or static benchmarks or production & human-in-the-loop study
+- Number: Part 1
+
+# Step 2: Save to Notion — Properties (Column)
+In the "Daily Paper Summary" page, in the "Daily Paper Summary" database
+Add each paper on a new line and fill in the properties as follows.
+
+| Notion property | Type | Value to fill |
+|---|---|---|
+| Title | Title of the paper |
+| Author | Text | Full list of authors (if more than 3, “First Author et al.”) |
+| Year of Publication | Number | Year of Publication (number only) |
+| Journal | Select | Journal Title |
+| DOI | URL | https://doi.org/ full link |
+| Field/Topic | Multi-select | Relevant tags (e.g., neurodegenerative disease, in vivo) |
+| Status | Before start |
+| Date read | Date | Leave blank |
+| Created date | Created time | Since it is auto-generated, do not modify it |
+
+# Step 3: Save to Notion — Page Body
+In the main text of each paper page, the following structure is based on the abstract
+Make it exactly as it is and fill in the content. Put each section in a heading (H2).
+
+## One-line summary
+In one sentence what this paper is about. (20–40 characters)
+
+## Problem to be solved
+What issue/void is being addressed. (2–3 sentences)
+
+## Approach
+How did you solve it? — Model/algorithms/experiment design, etc. (2–4 sentences)
+
+## Algorithm
+What was the derived algorithm or Pseudocode? - include the code and explanations
+Be sure the code/pseudocode comes from the github page stated in the paper
+
+## Key Results
+What was discovered, including any figures. (2–3 sentences)
+
+## Contributions / New Features
+What is different from before. (1–2 sentences)
+
+## Limitations/Improvements
+What were the limitations of the paper? What needs improvement? Explanations
+
+# Rule
+- The main text must be written based on the abstract and full-text of the relevant paper, and,
+  Don't invent it based on speculation. Mark any information not in the abstract as "not specified in the abstract."
+- Please adhere to the character count and sentence count limits for each section.
+- Make sure to fill in the DOI.
+- Since "journal" is a select, please enter it exactly without any typos.
