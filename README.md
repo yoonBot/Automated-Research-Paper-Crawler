@@ -14,4 +14,18 @@ A Comprehensive Guide to Building Your Own Research Journal Library with the Lat
 
 ___
 
-## Instructions 
+## Requirements
+
+1. Claude
+2. Notion
+
+___
+
+## Instructions
+
+1. Click the chat/message icon in Claude (Not the code).
+2. Click 'New' and the '+' sign in the chat
+3. Click 'Connectors' and add 'Notion' and 'alphaXiv' (alphaXiv retrieves papers from arXiv, so I recommend this one if you're from CS)
+4. 
+
+
