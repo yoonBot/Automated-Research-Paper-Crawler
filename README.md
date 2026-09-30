@@ -14,6 +14,11 @@ A Comprehensive Guide to Building Your Own Research Journal Library with the Lat
 
 ___
 
+## Features In Each Paper
+
+- A summary of the paper
+- Algorithms/Pseudocode Section. (If there is no dedicated source code or repository, Claude generates one for you based from the paper)
+
 ## Requirements
 
 1. Claude
@@ -24,8 +29,10 @@ ___
 ## Instructions
 
 1. Click the chat/message icon in Claude (Not the code).
-2. Click 'New' and the '+' sign in the chat
+2. Click 'New' and the '+' in the chat
 3. Click 'Connectors' and add 'Notion' and 'alphaXiv' (alphaXiv retrieves papers from arXiv, so I recommend this one if you're from CS)
-4. 
+4. Copy and Paste the "Notion_DB_Prompt.txt" into Claude to build your Notion Database page in Claude Chat (Not Claude Code). You can check whether your database has been generated properly. 
+5. Move into Claude "Code" and enter "Routines" -> "New Routine"
+6. "cloud" -> Paste
 
 
