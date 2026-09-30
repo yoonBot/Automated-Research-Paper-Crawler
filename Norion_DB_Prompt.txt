@@ -1,0 +1,23 @@
+Please create a Daily Thesis Summary page in Notion.
+
+Create an inline view of the Daily Paper Summary database on this page.
+
+Create the database property like this.
+
+Title
+
+Author - Text
+
+Year of Publication - Number
+
+Journal - Select
+
+DOI - URL
+
+Field/Topic - Multi-select
+
+Status - Status (before start / in progress / completed / pending)
+
+Date read - Date
+
+Created time
